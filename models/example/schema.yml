@@ -28,3 +28,12 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: another_model_test
+      description: "A starter dbt model"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
