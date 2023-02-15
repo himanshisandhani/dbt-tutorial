@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    schema: jaffle_shop
+    database: "dbt-project-test-377818"
+    tables:
+    - name: raw_data
+      description: It contains dummy data for macros testing
