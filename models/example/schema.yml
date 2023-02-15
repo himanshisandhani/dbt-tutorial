@@ -37,3 +37,11 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: my_first_dbt_macro
+      description: "A starter dbt model for macro"
+      columns:
+          - name: name
+            description: "The primary key for this table"
+            tests:
+                - not_null
