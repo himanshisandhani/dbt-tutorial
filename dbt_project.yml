@@ -36,8 +36,3 @@ models:
       # Applies to all files under models/example/
       example:
           materialized: view
-
-seeds:
-  jaffle_shop:
-    +enabled: true
-    +schema: seed_data
